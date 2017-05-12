@@ -1,0 +1,23 @@
+{
+    "name": "abc-webdriverio",
+    "version": "1.0.0",
+    "description": "abc webdriverio automation",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio"
+    },
+    "keywords": [
+        "mocha",
+        "webdriverio",
+        "chai"
+    ],
+    "author": "ravikiran padki",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "wdio-mocha-framework": "^0.5.10",
+        "wdio-selenium-standalone-service": "0.0.8",
+        "wdio-spec-reporter": "^0.1.0",
+        "webdriverio": "^4.8.0"
+    }
+}
