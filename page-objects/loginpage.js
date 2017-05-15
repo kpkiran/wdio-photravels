@@ -2,6 +2,7 @@ var basePage = require('./../pages/basepage');
 
 class LoginPage extends basePage {
 
+    //the domain name turns to '.org'. How to handle this in config.
     open() {
         browser.url('https://phptravels.org/clientarea.php')
     }
